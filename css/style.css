@@ -1,0 +1,70 @@
+.fond{
+    background-color: #F2F2F2;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+body{
+    margin: 0px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+
+.foot{
+    text-align: center;
+}
+
+.centre{
+    text-align: center;
+}
+
+.centre2{
+    text-align: center;
+    font-style: italic;
+}
+
+.link{
+    color: black;
+    text-decoration: none;
+}
+
+.link:hover{
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+
+    color:transparent;
+
+    -webkit-background-clip: text;
+
+}
+
+p{
+    font-size: 20px;
+}
+
+.image {
+    -webkit-filter: blur(3px);
+    filter: blur(50px);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    width: 60%;
+}
+.image:hover  {
+    -webkit-filter: blur(0);
+    filter: blur(0);
+}
+
+.photo{
+    width:60%;
+}
+
+#milieu{
+    text-align: center;
+}
